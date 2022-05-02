@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：Element_UI_Empty
+  File name(文件名): test3
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/5/2
+  Time(创建时间)： 21:01
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/element-ui.css">
+    <script src="js/vue.js"></script>
+    <script src="js/element-ui.js"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <el-empty :image-size="600" description="∑(っ°Д°;)っ卧槽，不见了" :image="imgUrl"></el-empty>
+
+</div>
+
+<script>
+    var app = new Vue(
+        {
+            el: "#app",
+            data: {
+                imgUrl: "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
+            },
+            methods: {},
+            mounted()
+            {
+
+            }
+        }
+    )
+</script>
+</body>
+</html>
